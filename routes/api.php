@@ -41,4 +41,4 @@ Route::get('profile/getByUserId/{id}', [ProfileController::class,'getByUserId'])
 
 Route::delete('profile/delete/{id}', [ProfileController::class,'delete']);
 
-Route::get('/profielfadsada','ehco');
+Route::get('/profielfadsada','echo');
